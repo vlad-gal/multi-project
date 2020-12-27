@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'by.halatsevich.multi'
+version '1.0'
+
+subprojects {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
